@@ -425,3 +425,16 @@ td,
 th {
     padding: 0;
 }
+
+
+/*
+
+ ############################## CUSTOMIZAÇÃO ############################
+ 
+*/
+
+.tocify-wrapper img{
+  max-width:200px;
+  margin-top:10px;
+  margin-left:14px;
+} 

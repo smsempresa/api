@@ -1,20 +1,27 @@
-# Errors
+# Códigos de Retorno
 
-<aside class="notice">This error section is stored in a separate file in `includes/_errors.md`. Slate allows you to optionally separate out your docs into many files...just save them to the `includes` folder and add them to the top of your `index.md`'s frontmatter. Files are included in the order listed.</aside>
+Abaixo a tabela de códigos de retornos.
 
-The Kittn API uses the following error codes:
+Caso o código recebido não esteja listado abaixo entre em contato através dos e-mail suporte@smsempresa.com.br .
 
 
-Error Code | Meaning
----------- | -------
-400 | Bad Request -- Your request sucks
-401 | Unauthorized -- Your API key is wrong
-403 | Forbidden -- The kitten requested is hidden for administrators only
-404 | Not Found -- The specified kitten could not be found
-405 | Method Not Allowed -- You tried to access a kitten with an invalid method
-406 | Not Acceptable -- You requested a format that isn't json
-410 | Gone -- The kitten requested has been removed from our servers
-418 | I'm a teapot
-429 | Too Many Requests -- You're requesting too many kittens! Slow down!
-500 | Internal Server Error -- We had a problem with our server. Try again later.
-503 | Service Unavailable -- We're temporarially offline for maintanance. Please try again later.
+Código | Descrição
+---------- | ------- 
+1 | Operação realizada com sucesso.
+400 | Texto ou Url da mensagem não definida.
+401 | Campo ACTION valor inválido.
+402 | Campo NUMBER sem valor definido.
+403 | Chave Key não e válida e/ou usuário não autenticado.
+405 | Campo ID sem valor definido.
+407 | Campo NUMBER erro de validação.
+408 | Saldo insuficiente. -- Realize uma nova recarga.
+409 | Campo TYPE valor inválido.
+414 | Conta não confirmada ou bloqueada. -- Efetue login no site confirmar sua conta.
+416 | Campo REFER máximo de caracteres permitido.
+420 | Campo MSG máximo de caracteres permitido.
+421 | Campo MSG no Torpedo de Voz máximo de caracteres permitido.
+435 | Campo ACTION sem valor definido.
+436 | Campo ID não encontrado.
+
+
+
